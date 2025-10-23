@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+:root{
+    --black: #333333ff;
+    --bege: #d5ccc7ff;
+    --branco: #a9a29cff;
+    -black : #28262bff;
+    --titulo: "SUSE Mono", sans-serif;
+    --texto: "Lato", sans-serif;
+}
+body{
+    background-color: var(--beige);
+    font-family: var(--titulo);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+ justify-content: center;
+
+}
+    main{
+        margin-top: 20px;
+        max-width: 90%;
+        text-align: center;
+    }
+    button{
+        font-family: var(--titulo);
+        background-color: var(--black);
+        color:var(--roxo);
+        border: 2px solid var(--amarelo)
+        padding: 20px 30px;
+        margin: 10px 0;
+        cursor: pointer;
+        border-radius: 10px
+        font-size: 20px;
+    }
